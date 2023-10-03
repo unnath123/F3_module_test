@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display: flex;
+    width:100vw;
+    height:100vh;
+}
+.left{
+    flex:1;
+    background-color: black;
+    padding:20px;
+    color:white 
+}
+h1{
+ color:#575A85;
+ margin-bottom: 20px;
+}
+.right{
+    flex:1;
+    background-color: #575A85;
+    padding:20px
+}
+img{
+    width:300px;
+    height:300px;
+}
+.left-block2{
+    width:1005;
+    display: flex;
+    justify-content: center;
+}
+.left-block1{
+    margin:30px;
+}
+.right h1{
+ color:#B8BCCC;
+ font-size: 25px;
+ font-family: 'Inter', sans-serif;
+
+}
+.right, .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+
+}
+button{
+    padding:0.3rem 1.5rem;
+    border: 2px solid #B8BCCC;
+    outline: none;
+    background-color: #575A85;
+    color:#B8BCCC;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+
+}
+.ip-address{
+    color:#FFFF
+}
+button:hover{
+    background-color: #646787;
+
+}
