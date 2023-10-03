@@ -66,12 +66,14 @@ main{
     font-family: 'Montserrat', sans-serif;
 }
 .searchBar input{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width:100%;
     padding:10px 0px;
     border: 3px solid #575A85;
     background-color: black;
     color:white;
+    border-left: none;
+    outline: none;
 }
 .postffices{
     display:grid;
@@ -87,4 +89,19 @@ main{
 .OfficeInfo h2{
     margin:20px
     /* justify-content:space-evenly; */
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    padding:10px
+}
+.sIcon{
+    /* height:40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #575A85;
+    padding:10px 10px;
+    border-right: none;
+
 }
